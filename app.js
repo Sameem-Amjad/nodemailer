@@ -18,7 +18,7 @@ const debugMode = process.env.DEBUG === 'true';
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: emailUser,
+    user: emailUser,  
     pass: emailPassword,
   },
 });
